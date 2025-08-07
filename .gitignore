@@ -1,0 +1,88 @@
+# ── Python ───────────────────────────────────────────────────────────────────────
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+pip-wheel-metadata/
+
+# dotenv
+.env
+.env.*.local
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# ── Editor/IDE ─────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+
+# macOS / Windows 파일메타
+.DS_Store
+Thumbs.db
+
+# ── Docker ─────────────────────────────────────────────────────────────────────
+docker-compose.override.yml
+
+# ── 모델·결과물 디렉터리 ───────────────────────────────────────────────────────
+# runs/ 아래에 들어가는 weights, checkpoints 등 대용량 파일 무시
+runs/
+
+# ── 기타 ───────────────────────────────────────────────────────────────────────
+docker-compose.yml
+
+# ── Images ────────────────────────────────────────────────────────────────────
+# 프로젝트 전반의 모든 이미지 파일 무시
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.gif
+*.tiff
+
+# ── Args configuration ───────────────────────────────────────────────────────
+# 어디에 있든 args.yaml 파일 무시
+args.yaml
+
+# ── Model artifacts ──────────────────────────────────────────────────────────
+# PyTorch weights / checkpoints
+*.pt
+*.pth
+
+# Keras / TensorFlow model 파일
+*.h5
+*.pb
+*.keras
+
+# TensorFlow SavedModel 구조
+# model.savedmodel 디렉토리 및 saved_model 디렉토리 무시
+**/model.savedmodel/
+**/saved_model/
+
+# 변수 데이터 및 인덱스 파일
+variables.data-*
+variables.index
+
+# assets 디렉토리 (SavedModel 자산)
+**/assets/
+
+# ── 추가: weights 디렉토리 (모델 weights 폴더) 무시 ─────────────────────────
+**/weights/
+test.html

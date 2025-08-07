@@ -1,0 +1,10 @@
+Flask
+Flask-Cors
+ultralytics
+tensorflow
+mediapipe
+numpy
+opencv-python-headless
+python-dotenv
+PyMySQL
+PyJWT
